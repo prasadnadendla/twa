@@ -1,0 +1,44 @@
+# Ignore Gradle wrapper files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java
+*.class
+*.log
+*.out
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Gradle files
+.gradle/
+build/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA project files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Maven wrapper
+.mvn/
+
+# JUnit tmp
+test-*.xml

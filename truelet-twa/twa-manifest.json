@@ -1,0 +1,55 @@
+{
+  "packageId": "in.truelet.twa",
+  "host": "truelet.in",
+  "name": "Truelet",
+  "launcherName": "Truelet",
+  "display": "standalone",
+  "themeColor": "#6366F1",
+  "themeColorDark": "#6366F1",
+  "navigationColor": "#F9FAFB",
+  "navigationColorDark": "#F9FAFB",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#F9FAFB",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://truelet.in/icons/manifest-icon-512.maskable.png",
+  "maskableIconUrl": "https://truelet.in/icons/manifest-icon-512.maskable.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "D:\\Prasad\\Workspace\\twa\\truelet-twa\\android.keystore",
+    "alias": "trueletapp"
+  },
+  "appVersionName": "8",
+  "appVersionCode": 8,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://truelet.in/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://truelet.in/",
+  "minSdkVersion": 21,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [
+    {
+      "protocol": "web+truelet",
+      "url": "https://truelet.in/launch?url=%s"
+    }
+  ],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "auto",
+  "appVersion": "8"
+}
