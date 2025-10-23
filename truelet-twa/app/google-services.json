@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "538274558149",
+    "project_id": "truelet",
+    "storage_bucket": "truelet.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538274558149:android:cdce02ba279b2cffec40ac",
+        "android_client_info": {
+          "package_name": "in.truelet.twa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIK81hJjDHFqs5Va8OHTZkDpBKNvMZeNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
