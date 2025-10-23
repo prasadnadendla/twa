@@ -15,13 +15,14 @@
   "startUrl": "/",
   "iconUrl": "https://truelet.in/icons/manifest-icon-512.maskable.png",
   "maskableIconUrl": "https://truelet.in/icons/manifest-icon-512.maskable.png",
+  "monochromeIconUrl": "https://truelet.in/icons/icon-72x72.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "D:\\Prasad\\Workspace\\twa\\truelet-twa\\android.keystore",
     "alias": "trueletapp"
   },
-  "appVersionName": "8",
-  "appVersionCode": 8,
+  "appVersionName": "9",
+  "appVersionCode": 10,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://truelet.in/manifest.webmanifest",
@@ -38,7 +39,7 @@
   "isChromeOSOnly": false,
   "isMetaQuest": false,
   "fullScopeUrl": "https://truelet.in/",
-  "minSdkVersion": 21,
+  "minSdkVersion": 23,
   "orientation": "portrait",
   "fingerprints": [],
   "additionalTrustedOrigins": [],
@@ -46,10 +47,14 @@
   "protocolHandlers": [
     {
       "protocol": "web+truelet",
-      "url": "https://truelet.in/launch?url=%s"
+      "url": "https://truelet.in/?url=%s"
     }
   ],
   "fileHandlers": [],
   "launchHandlerClientMode": "auto",
-  "appVersion": "8"
+  "displayOverride": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "appVersion": "9"
 }

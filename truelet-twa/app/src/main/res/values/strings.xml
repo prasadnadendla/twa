@@ -18,6 +18,24 @@
   
 
   <!--
+    The "fullscreen" and "fullscreen-sticky" TWA manifest values correspond to "immersive" and "sticky-immersive"
+    AndroidManifest values.
+  -->
+  
+    <string-array name="display_override">
+    
+      
+        <item>window-controls-overlay</item>
+      
+    
+      
+        <item>standalone</item>
+      
+    
+    </string-array>
+  
+
+  <!--
     This variable below expresses the relationship between the app and the site,
     as documented in the TWA documentation at
     https://developers.google.com/web/updates/2017/10/using-twa#set_up_digital_asset_links_in_an_android_app

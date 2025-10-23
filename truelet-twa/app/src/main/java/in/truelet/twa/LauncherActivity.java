@@ -34,7 +34,7 @@ public class LauncherActivity
         @Override
         protected Map<String, Uri> getProtocolHandlers() {
             Map<String, Uri> registry = new HashMap<>();
-            registry.put("web+truelet", Uri.parse("https://truelet.in/launch?url=%s"));
+            registry.put("web+truelet", Uri.parse("https://truelet.in/?url=%s"));
             return registry;
         }
     
