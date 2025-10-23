@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "in.truelet.twa",
+      "sha256_cert_fingerprints": [
+        "C8:41:82:38:2F:7F:51:92:B1:7C:37:3F:BC:57:3A:17:F4:C2:4C:73:FC:64:63:32:12:20:E9:48:AC:88:80:9F"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "check_validation"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "in.truelet.twa"
+    }
+  }
+]
